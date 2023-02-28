@@ -17,7 +17,7 @@ const App = () => {
     const deleteItem = menuData.filter((item) => item.id !== id);
     setMenuDatat(deleteItem);
   };
-
+  
   //handle order buttton
   const handleClick = (btnitem) => {
     const filteredMenu = data.filter((item) => item.category === btnitem);
